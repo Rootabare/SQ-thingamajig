@@ -1,0 +1,79 @@
+/* UNIVERSAL ALIGNMENT PUBLIC SELECTOR-ish */
+*{
+    font-family: cursive;
+
+}
+
+
+body {
+    background-color: #fffbe7 ;
+}
+
+
+.title{
+    text-align: center;
+    color: black;}
+
+.title:hover{
+    color: darkred;
+    font-size: 150%;
+    transition: 0.2s;
+}
+
+#judul{color: silver;}
+
+h2{color: steelblue;
+    text-align: center;
+}
+h3{text-align: center;}
+
+.border{
+    border: 2px dotted black;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;      
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+}
+
+.center-img {
+    display: block;
+    margin-right: auto;
+}
+
+
+body {
+    line-height: 1.7;
+    padding: 0 10vw;
+}
+
+
+.border {
+    background: #fff;
+    border: 2px dotted #ffb300;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s;
+}
+.border:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+div a img:hover {
+    filter: none;
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(-6px);}
+}
+header h1 {
+  display: inline-block;
+}
+header h1::before {
+  content: "🐉";
+  display: inline-block;
+  animation: bounce 1.2s infinite;
+  margin-right: 8px;
+}
